@@ -18,13 +18,13 @@ const stringifyIfNeeded = (message) => {
   }
 
   return message;
-}
+};
 
 const logInner = (loggerName, level, ...messages) => {
   const timeString = new Date().toISOString();
   const stub = `[${timeString} ${loggerName}]`;
   console[level](stub, ...(messages).map(stringifyIfNeeded));
-}
+};
 
 /**
  * 
@@ -32,7 +32,7 @@ const logInner = (loggerName, level, ...messages) => {
  * @param {Logger} parent 
  * @returns {Logger}
  */
-export function getLogger(loggerName, parent) {
+const getLogger = (loggerName, parent) => {
   const name = parent ? `${parent.getName()} > ${loggerName}` : loggerName;
   const getName = () => name;
   const info = (...messages) => logInner(name, 'info', ...messages);
@@ -48,4 +48,6 @@ export function getLogger(loggerName, parent) {
     log,
     getName
   }
-}
+};
+
+module.exports = { getLogger };

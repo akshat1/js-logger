@@ -1,6 +1,6 @@
-import { mock, test } from "node:test";
-import { strict as assert } from "node:assert";
-import { getLogger } from "./index.js";
+const { mock, test } = require("node:test");
+const { strict: assert } = require("node:assert");
+const { getLogger } = require("./index.js");
 
 test("should return a logger object", () => {
   const logger = getLogger("test");
