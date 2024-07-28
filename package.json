@@ -1,0 +1,28 @@
+{
+  "name": "@akshat1/js-logger",
+  "version": "1.0.0",
+  "description": "Simple JS logger.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akshat1/js-logger.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "Logging",
+    "logger",
+    "console"
+  ],
+  "author": "akshat1 <akshat.sh@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/akshat1/js-logger/issues"
+  },
+  "homepage": "https://github.com/akshat1/js-logger#readme"
+}
