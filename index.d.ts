@@ -8,7 +8,7 @@ export interface Logger {
     debug: (...args: unknown[]) => void;
     log: (...args: unknown[]) => void;
     getName: () => string;
-};
+}
 
 /**
  * Get a new Logger instance with the given name and optional parent logger.
