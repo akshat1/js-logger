@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "tsc && node --test lib/**/*.test.js",
+    "test": "node --test lib/**/*.test.js",
     "clean": "rm -rf lib",
     "docs": "typedoc src"
   },

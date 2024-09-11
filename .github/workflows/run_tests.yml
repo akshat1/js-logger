@@ -18,8 +18,12 @@ jobs:
         with:
           cmd: install
       
+      - name: Run Build
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: build
+      
       - name: Run Tests
         uses: borales/actions-yarn@v4
         with:
           cmd: test
-    
