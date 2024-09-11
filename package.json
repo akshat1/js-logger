@@ -1,6 +1,6 @@
 {
   "name": "@akshat1/js-logger",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Simple JS logger.",
   "main": "lib/index.js",
   "type": "module",

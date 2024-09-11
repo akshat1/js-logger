@@ -4,7 +4,7 @@ A simple JS Logger.
 ## Installation
 
 ```sh
-npm i -S @dhoomraketu/js-logger
+npm i -S @akshat1/js-logger
 ```
 
 ## Usage
